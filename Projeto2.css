@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* CABECALHO */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #666867;
+    color: #f096f0;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+
+
+/* Grid de produtos*/
+
+.container{
+    background-color: #000;
+    min-height: 60vh;
+    padding: 50px;
+    background-image: url('/Front-end/projeto/img/abstract_pattern_design_background_2007.jpg');
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img1{
+    background-image: url('https://img.freepik.com/fotos-gratis/tiro-medio-jovem-vestindo-capuz-preto_23-2149359862.jpg?uid=R124878925&ga=GA1.1.24697780.1721092549&semt=ais_user');
+}
+
+#img2{
+    background-image: url('https://img.freepik.com/fotos-premium/um-homem-vestindo-uma-camisa-com-a-palavra-nao-nela_887512-688.jpg?uid=R124878925&ga=GA1.1.24697780.1721092549&semt=ais_user');
+}
+
+#img3{
+    background-image: url('https://img.freepik.com/fotos-premium/homem-de-pe-contra-a-parede_1048944-10219678.jpg?uid=R124878925&ga=GA1.1.24697780.1721092549&semt=ais_user');
+}
+
+#img4{
+    background-image: url('https://img.freepik.com/fotos-gratis/pessoa-da-geracao-z-explorando-moda-e-beleza-absurdas_23-2151103979.jpg?uid=R124878925&ga=GA1.1.24697780.1721092549&semt=ais_user');
+}
+
+#img5{
+    background-image: url('https://img.freepik.com/fotos-premium/um-homem-vestindo-uma-camiseta-branca-com-um-logotipo-preto-esta-sentado-em-um-skate_887512-766.jpg?uid=R124878925&ga=GA1.1.24697780.1721092549&semt=ais_user');
+}
+
+#img6{
+    background-image: url('https://img.freepik.com/fotos-gratis/adolescente-com-jaqueta-verde-e-skate_23-2148478795.jpg?uid=R124878925&ga=GA1.1.24697780.1721092549&semt=ais_user');
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #706f6f;
+    font-size: 24px;
+    border-left: 5px solid #ff00ff;
+    padding-left: 7px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: large;
+    font-style:  bold;
+    background-color: #f096f0;
+    color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: #ff00ff;
+}
+
+/* Footer */
+
+footer{
+    background-color: #666867;
+    color: #f096f0;
+    border-top: 3px solid #000;
+    text-align: left;
+    padding: 80px;
+}
