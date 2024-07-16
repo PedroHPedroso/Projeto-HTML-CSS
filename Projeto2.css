@@ -54,6 +54,7 @@ header {
 
 #img1{
     background-image: url('https://img.freepik.com/fotos-gratis/tiro-medio-jovem-vestindo-capuz-preto_23-2149359862.jpg?uid=R124878925&ga=GA1.1.24697780.1721092549&semt=ais_user');
+    background-position: bottom;
 }
 
 #img2{
@@ -108,7 +109,8 @@ h3 {
 }
 
 .btn:hover{
-    background-color: #ff00ff;
+    background-color: #000000;
+    color: #68e05d;
 }
 
 /* Footer */
